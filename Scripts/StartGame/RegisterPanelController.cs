@@ -64,10 +64,12 @@ public class RegisterPanelController : UIBase
 
 
         //连接成功，保存用户名和密码，返回到开始面板
+        //将输入的数据保存起来
         registerPanelModel.UserName = GetInputField(UIType.RP_inp_Account).text;
         registerPanelModel.Password = GetInputField(UIType.RP_inp_Password).text;
         UIManager.Instance.SetActive(UIType.SMP, true);
         gameObject.SetActive(false);
+        //更改相应面板对应的显示内容
         GetText(UIType.SMP, UIType.SMP_txt_User).text = registerPanelModel.UserName;
         GetInputField(UIType.LP, UIType.LP_inp_Account).text = registerPanelModel.UserName;
         GetInputField(UIType.LP, UIType.LP_inp_Password).text = registerPanelModel.Password;

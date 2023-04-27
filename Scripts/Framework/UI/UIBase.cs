@@ -176,6 +176,20 @@ public class UIBase : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// 监听文本框的内容
+    /// </summary>
+    /// <param name="widgetName">子控件名字</param>
+    /// <param name="content">向子控件输入的字符串</param>
+    public void AddTextListen(string widgetName, string content)
+    {
+        UIBehaviors tmpBehavior = GetBehavior(widgetName);
+        if (tmpBehavior != null)
+        {
+            tmpBehavior.AddChangeTextContextListen(content);
+        }
+    }
+
     #endregion 对子控件身上的组件进行操作
 
 

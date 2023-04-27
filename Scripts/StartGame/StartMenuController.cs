@@ -41,7 +41,8 @@ public class StartMenuController : UIBase
     /// </summary>
     public void OnButtonServerClick()
     {
-
+        UIManager.Instance.SetActive(UIType.SMP, false);
+        UIManager.Instance.SetActive(UIType.SP, true);
     }
 
     /// <summary>
@@ -51,8 +52,10 @@ public class StartMenuController : UIBase
     {
         //1.连接服务器，验证用户名和服务器
         //TODO
+
         //2.进入角色选择界面
-        //TODO
+        UIManager.Instance.SetActive(UIType.SMP, false);
+        UIManager.Instance.SetActive(UIType.CP, true);
     }
 
     #endregion

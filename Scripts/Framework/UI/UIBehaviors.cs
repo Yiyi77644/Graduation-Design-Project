@@ -39,6 +39,18 @@ public class UIBehaviors : MonoBehaviour
             tmpInputField.onValueChanged.AddListener(action);
         }
     }
+    /// <summary>
+    /// 子控件如果有Text组件，则监听Text。
+    /// </summary>
+    /// <param name="content">向Text输入的内容</param>
+    public void AddChangeTextContextListen(string content)
+    {
+        Text tmpText = GetComponent<Text>();
+        if (tmpText != null)
+        {
+            tmpText.text = content;
+        }
+    }
 
     #endregion 逻辑
 }
