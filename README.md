@@ -1,2 +1,2 @@
 # Graduation-Design-Project
-This is a game I played for graduation using unity. The game belongs to FPS. In this repository, an exercise project that is an RPG game will be uploaded here.
+跟着教程做的项目。拖延症可能使这个项目，得好长时间才能完成。
