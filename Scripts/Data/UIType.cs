@@ -4,10 +4,7 @@ using UnityEngine;
 
 public class UIType
 {
-    public const string MainCanvas = "MainCanvas";
-
-    public const string ImgBg = "Image_Bg";
-
+    #region 场景01StartMenu
     public const string SMP = "StartMenuPanel";
     public const string LP = "LoginPanel";
     public const string RP = "RegisterPanel";
@@ -47,8 +44,64 @@ public class UIType
     public const string CSP_btn_Confirm = "btn_Confirm_N1";
     public const string CSP_btn_Return = "btn_Return_N1";
     public const string CSP_inp_CharName = "inp_CharName_N1";
+    #endregion 场景01StartMenu
+
+    #region 场景02MainMenu
+    public const string InfoP = "InfoPanel";
+    public const string PSP = "PlayerStatusPanel";
+    public const string CNP = "ChangeNamePanel";
 
 
+    public const string InfoP_img_Head = "img_Head_N1";
+    public const string InfoP_btn_Head = "btn_Head_N1";
+    public const string InfoP_txt_PlayerName = "txt_PlayerName_N1";
+    public const string InfoP_txt_PlayerLevel = "txt_PlayerLevel_N1";
+    public const string InfoP_sli_EnergyBar = "sli_EnergyBar_N1";
+    public const string InfoP_txt_PlayerEnergy = "txt_PlayerEnergy_N1";
+    public const string InfoP_sli_Honedbar = "sli_HonedBar_N1";
+    public const string InfoP_txt_PlayerHoned = "txt_PlayerHoned_N1";
+    public const string InfoP_btn_EnergyPlus = "btn_EnergyPlus_N1";
+    public const string InfoP_btn_HonedPlus = "btn_HonedPlus_N1";
+
+    public const string InfoP_txt_DiamondCount = "txt_DiamondCount_N1";
+    public const string InfoP_btn_DiamondPlus = "btn_DiamondPlus_N1";
+    public const string InfoP_txt_CoinCount = "txt_CoinCount_N1";
+    public const string InfoP_btn_CoinPlus = "btn_CoinPlus_N1";
+
+    public const string InfoP_btn_Combat = "btn_Combat_N1";
+    public const string InfoP_btn_Inventory = "btn_Inventory_N1";
+    public const string InfoP_btn_Task = "btn_Task_N1";
+    public const string InfoP_btn_Skill = "btn_Skill_N1";
+    public const string InfoP_btn_Shop = "btn_Shop_N1";
+    public const string InfoP_btn_System = "btn_System_N1";
+
+
+    public const string PSP_img_Head = "img_Head_N1";
+    public const string PSP_txt_PlayerLevel = "txt_PlayerLevel_N1";
+    public const string PSP_txt_PlayerName = "txt_PlayerName_N1";
+    public const string PSP_txt_PlayerCombatPower = "txt_PlayerCombatPower_N1";
+    public const string PSP_sli_PlayerExp = "sli_PlayerExp_N1";
+    public const string PSP_txt_PlayerExp = "txt_PlayerExp_N1";
+    public const string PSP_btn_ChangeName = "btn_ChangeName_N1";
+    public const string PSP_btn_Close = "btn_Close_N1";
+
+    public const string PSP_txt_DiamondCount = "txt_DiamondCount_N1";
+    public const string PSP_txt_CoinCount = "txt_CoinCount_N1";
+
+    public const string PSP_txt_EnergyCount = "txt_EnergyCount_N1";
+    public const string PSP_txt_EnergyPartlyRestoreTime = "txt_EnergyPartlyRestoreTime_N1";
+    public const string PSP_txt_EnergyAllRestoreTime = "txt_EnergyAllRestoreTime_N1";
+
+    public const string PSP_txt_HonedCount = "txt_HonedCount_N1";
+    public const string PSP_txt_HonedPartlyRestoreTime = "txt_HonedPartlyRestoreTime_N1";
+    public const string PSP_txt_HonedAllRestoreTime = "txt_HonedAllRestoreTime_N1";
+    
+
+    public const string CNP_inp_ChangeName = "inp_ChangeName_N1";
+    public const string CNP_btn_ChangeConfirm = "btn_ChangeConfirm_N1";
+    public const string CNP_btn_ChangeCancel = "btn_ChangeCancel_N1";
+
+    #endregion 场景02MainMenu
 
 
 }
